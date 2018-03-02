@@ -1,0 +1,359 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayColor"
+    tools:context="lk.supervision.doctermaster.fragment.NextPrintFragment">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="800dp"
+        android:weightSum="2">
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="750dp"
+            android:layout_weight="1"
+            android:background="#E0E0E0"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:paddingTop="40dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_print_next_no"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="4"
+                    android:layout_weight="3"
+                    android:background="@color/colorPrimary"
+                    android:paddingLeft="20dp"
+                    android:drawableLeft="@drawable/printer_connect"
+                    android:text="PRINT NEXT"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingTop="5dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/text_online_print_no"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="3"
+                    android:background="@color/whiteColor"
+                    android:ems="10"
+                    android:hint="ENTER ONLINE NUMBER"
+                    android:inputType="number"
+                    android:paddingLeft="10dp"
+                    android:textSize="35dp"
+                    android:gravity="right"
+                    android:paddingTop="20dp"
+                    android:paddingRight="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingTop="5dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_online_print_next_no"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_span="4"
+                    android:layout_weight="3"
+                    android:background="@color/colorPrimary"
+                    android:drawableLeft="@drawable/ic_youtube_searched_for_black_24dp"
+                    android:paddingLeft="20dp"
+                    android:text="ONLINE PRINT"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+            </TableRow>
+            <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:paddingTop="50dp"-->
+                <!--android:weightSum="5">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/text2"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="80dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="@color/colorPrimary"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/btn_printer_connect"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="80dp"-->
+                    <!--android:layout_marginTop="1dp"-->
+                    <!--android:layout_weight="3"-->
+                    <!--android:background="#d32f2f"-->
+                    <!--android:text="PRINTER CONNECT"-->
+                    <!--android:drawableLeft="@drawable/printer_45_connect"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:textColor="@color/whiteColor"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textStyle="bold" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/text3"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="80dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="@color/colorPrimary"-->
+                    <!--android:textStyle="bold" />-->
+            <!--</TableRow>-->
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_network_connect"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="3"
+                    android:background="#4CAF50"
+                    android:drawableLeft="@drawable/network_connect"
+                    android:paddingLeft="20dp"
+                    android:text="NETWORK CONNECT"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingTop="5dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_password"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="RUNNING NO"
+                    android:textColor="#757575"
+                    android:textSize="55dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:paddingTop="5dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/text_running_no"
+                    android:layout_width="0dp"
+                    android:layout_height="370dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/round_button"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="210dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:paddingTop="10dp"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_lastno_sync_maual"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="3"
+                    android:background="#757575"
+                    android:paddingLeft="20dp"
+                    android:drawableLeft="@drawable/sync_connect"
+                    android:text="LAST SYNC -  08.30.55 PM"
+                    android:textColor="@color/whiteColor"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>

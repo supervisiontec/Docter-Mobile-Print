@@ -1,0 +1,13 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE "m_settings" (
+  `index_no` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  `bluetooth_printer` TEXT NOT NULL,
+  `bluetooth_printer_mac` TEXT NOT NULL,
+  `center_name` TEXT NOT NULL,
+  `center_address` TEXT NOT NULL,
+  `center_contact_no` TEXT NOT NULL,
+  `footer` TEXT NOT NULL
+);
+INSERT INTO "m_settings" VALUES(1,'PLEASE ENTER BLUETOOTH PRINTER','123456789','CENTER NAME','CENTER ADDRESS','CENTER CONTACT NO','www.supervision.lk');
+COMMIT;

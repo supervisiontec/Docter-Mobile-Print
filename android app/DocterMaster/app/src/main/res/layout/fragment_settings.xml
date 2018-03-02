@@ -1,0 +1,168 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E0E0E0"
+    android:stretchColumns="3"
+    tools:context="lk.supervision.doctermaster.fragment.SettingsFragment">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btn_bluetooth_scan"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="SCAN BLUETOOTH"
+            android:textColor="@color/whiteColor" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/text_settings_bluetooth_printer"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:background="@drawable/search_edit_text"
+            android:elevation="3dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="BLUETOOTH PRINTER" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/text_settings_bluetooth_printer_mac"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:background="@drawable/search_edit_text"
+            android:elevation="3dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="BLUETOOTH PRINTER MAC" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/text_settings_center_name"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:background="@drawable/search_edit_text"
+            android:elevation="3dp"
+            android:hint="CENTER NAME"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/text_settings_center_address"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_weight="9"
+            android:background="@drawable/search_edit_text"
+            android:elevation="3dp"
+            android:gravity="top|left"
+            android:hint="CENTER ADDRESS"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="6"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/text_settings_center_contact_no"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:background="@drawable/search_edit_text"
+            android:elevation="3dp"
+            android:hint="CENTER CONTACT NO"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btn_save_settings"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="SAVE"
+            android:textColor="@color/whiteColor" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btn_bluetooth_test"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="TEST PRINT"
+            android:textColor="@color/whiteColor" />
+    </TableRow>
+</TableLayout>
